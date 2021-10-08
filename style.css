@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(ppppp.jpg);
+    background-size: cover;
+    height: 100vh; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    color: orangered;
+    margin: 0 0 0 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 4%;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+a:hover{
+    color: orangered;
+    transition: .5s;
+}
+
+.srch{
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 1px solid orangered;
+    margin-top: 9px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    border-bottom-left-radius: 7px;
+    outline: none;
+}
+.btn{
+    width: 100px;
+    height: 37px;
+    background: orangered;
+    border: 2px solid orangered;
+    font-size: 15px;
+    color: white;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    color: black;
+    transition: .5s;
+}
+.content{
+    color: white;
+    margin: 7% 0 0 6%;
+}
+.content h1{
+    font-size: 350%;
+}
+.content span{
+    color: orangered;
+    font-size: 150%;
+}
+.bt{
+    width: 130px;
+    height: 35px;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+    margin: 2% 10px 0 0;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+.bt:hover{
+    color: black;
+    transition: .5s;
+}
+
+
